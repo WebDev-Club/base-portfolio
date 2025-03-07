@@ -16,6 +16,16 @@
 	--font-montserrat: "Montserrat", sans-serif;
 }
 
+@theme {
+	--color-primaryGray: var(--primary-gray);
+	--color-primaryBlue: var(--primary-blue);
+	--color-accentPurple: var(--accent-purple);
+	--color-accentOrange: var(--accent-orange);
+	--color-accentSkyBlue: var(--accent-sky-blue);
+	--color-accentYellow: var(--accent-yellow);
+	--color-accentGreen: var(--accent-green);
+}
+
 body {
 	background: var(--background);
 	color: #fff;
