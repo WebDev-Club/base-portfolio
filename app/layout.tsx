@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 const monseratt = Montserrat({
@@ -7,6 +7,7 @@ const monseratt = Montserrat({
 	subsets: ["latin"],
 })
 
+// Customize the metadata below
 export const metadata: Metadata = {
 	title: "My Portfolio",
 	description: "Created from tutorial base-portfolio",
@@ -19,9 +20,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${monseratt.variable} antialiased`}
-			>
+			<body className={`${monseratt.variable} antialiased`}>
 				{children}
 			</body>
 		</html>

@@ -3,6 +3,9 @@ import Image from "next/image";
 /**
  * The config object contains your personal information.
  * Replace the values with your own information.
+ * 
+ * To edit the actual information about you, you will need to 
+ * edit the HTML content.
  */
 const config = {
 	name: "[Your Name]", // Your full name
@@ -36,7 +39,7 @@ export default function Home() {
 			app much faster and it makes you more productive.
 			
 			https://tailwindcss.com/docs/styling-with-utility-classes
-			
+
 			*/}
 			<Header />
 			<main className="flex-grow flex flex-row justify-center space-x-8 w-full px-8">
@@ -125,12 +128,12 @@ function Footer() {
 				<Image src="/horizontal.svg" alt="NCSSM Horizontal Logo" width={200} height={50} />
 			</div>
 			<div className="space-x-4 mb-2">
-				<a href={`mailto:${config.email}`} style={{color: "#99caea"}} className="hover:text-white">Email: {config.email}</a>
+				<a href={`mailto:${config.email}`} className="text-accentSkyBlue hover:text-white">Email: {config.email}</a>
 			</div>
 			<div className="space-x-4">
-				<a href={`https://github.com/${config.github}`} target="_blank" rel="noopener noreferrer" style={{color: "#99caea"}} className="hover:text-white">GitHub</a>
-				<a href={`https://twitter.com/${config.twitter}`} target="_blank" rel="noopener noreferrer" style={{color: "#99caea"}} className="hover:text-white">Twitter</a>
-				<a href={`https://linkedin.com/in/${config.linkedin}`} target="_blank" rel="noopener noreferrer" style={{color: "#99caea"}} className="hover:text-white">LinkedIn</a>
+				<a href={`https://github.com/${config.github}`} target="_blank" rel="noopener noreferrer" className="text-accentSkyBlue hover:text-white">GitHub</a>
+				<a href={`https://twitter.com/${config.twitter}`} target="_blank" rel="noopener noreferrer" className="text-accentSkyBlue hover:text-white">Twitter</a>
+				<a href={`https://linkedin.com/in/${config.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-accentSkyBlue hover:text-white">LinkedIn</a>
 			</div>
 			<p className="text-sm text-gray-500 mt-4">© 2025 NCSSM. All rights reserved.</p>
 		</footer>

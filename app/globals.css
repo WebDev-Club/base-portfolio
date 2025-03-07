@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* 
+You shouldn't need to change anything in this file, 
+but of course you can if you want.
+*/
+
 :root {
 	--background: #252525;
 	--footer-background: #1b1b1b;
