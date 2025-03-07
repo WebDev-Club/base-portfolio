@@ -1,29 +1,29 @@
 {
-  "name": "base-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "npx next dev --turbopack",
-    "build": "npx next build",
-    "start": "npx next start",
-    "lint": "npx next lint",
-    "docker:build": "docker build -t base-portfolio .",
-    "docker:run": "docker run -p 3000:3000 base-portfolio"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.1"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.1",
-    "@eslint/eslintrc": "^3"
-  }
+	"name": "base-portfolio",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "npx next dev --turbopack",
+		"build": "npx next build",
+		"start": "npx next start",
+		"lint": "npx next lint",
+		"docker:build": "docker build -t base-portfolio .",
+		"docker:run": "docker run -p 3000:3000 base-portfolio"
+	},
+	"dependencies": {
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"next": "15.2.1"
+	},
+	"devDependencies": {
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"@tailwindcss/postcss": "^4",
+		"tailwindcss": "^4",
+		"eslint": "^9",
+		"eslint-config-next": "15.2.1",
+		"@eslint/eslintrc": "^3"
+	}
 }
