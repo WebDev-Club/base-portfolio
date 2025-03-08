@@ -73,7 +73,7 @@ function LeftBody() {
 		<div className="w-1/2 space-y-8 text-left pl-8">
 			<section>
 				<h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-				<p className="text-lg mt-2">Hi, I'm {config.name}. I'm a student at NCSSM.</p>
+				<p className="text-lg mt-2">Hi, I&apos;m {config.name}. I&apos;m a student at NCSSM.</p>
 			</section>
 			<section>
 				<h2 className="text-3xl font-semibold">Achievements</h2>
