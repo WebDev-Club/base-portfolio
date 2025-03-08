@@ -58,8 +58,9 @@ export default function Home() {
 function Header() {
 	return (
 		<header className="mb-8 flex flex-row items-center justify-center">
-			<Image src="/abbreviated.svg" alt="NCSSM Abbreviated Logo" width={75} height={75} />
-			<h1 className="text-5xl font-bold mt-2 p-2 pb-4">{config.name}</h1>
+			<Image src="/the.gif" alt="NCSSM Abbreviated Logo" width={75} height={75} />
+			<h1 className="text-5xl font-bold mt-2 p-2 pb-4">what</h1>
+			<Image src="/the.gif" alt="NCSSM Abbreviated Logo" width={75} height={75} />
 		</header>
 	)
 }
@@ -68,27 +69,36 @@ function Header() {
  * The LeftBody component is a functional component that renders a brief introduction, achievements, and skills.
  * @returns The LeftBody component contains a brief introduction, achievements, and skills.
  */
+
+//{config.name}
 function LeftBody() {
 	return (
 		<div className="w-1/2 space-y-8 text-left pl-8">
 			<section>
-				<h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-				<p className="text-lg mt-2">Hi, I'm {config.name}. I'm a student at NCSSM.</p>
+				<h1 className="text-4xl font-bold">I didn't fall</h1>
+				<p className="text-lg mt-2">Hi, I of course I talk to myself. I'm almost there.</p>
 			</section>
 			<section>
-				<h2 className="text-3xl font-semibold">Achievements</h2>
+				<h2 className="text-3xl font-semibold">Top 10 cats</h2>
 				<ul className="mt-2 list-disc list-inside">
-					<li className="text-lg">Achievement 1</li>
-					<li className="text-lg">Achievement 2</li>
-					<li className="text-lg">Achievement 3</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
+					<li className="text-lg">Wanna see something funny</li>
 				</ul>
 			</section>
 			<section>
 				<h2 className="text-3xl font-semibold">Skills</h2>
 				<ul className="mt-2 list-disc list-inside">
-					<li className="text-lg">Skill 1</li>
-					<li className="text-lg">Skill 2</li>
-					<li className="text-lg">Skill 3</li>
+					<li className="text-lg">none</li>
+					<li className="text-lg">I fell</li>
+					<li className="text-lg">cereal making </li>
 				</ul>
 			</section>
 		</div>
@@ -105,13 +115,19 @@ function RightBody() {
 			<section className="bg-accentPurple p-6 rounded-lg shadow-md">
 				<h2 className="text-3xl font-semibold text-white">Projects</h2>
 				<ul className="mt-2 list-disc list-inside text-left text-white">
-					<li className="text-lg">Project 1: Description of project 1.</li>
-					<li className="text-lg">Project 2: Description of project 2.</li>
+					<li className="text-lg">Project 1: AI water.</li>
+					<li className="text-lg">Project 2: AI gasoline.</li>
+					<li className="text-lg">Project 3: AI tractor.</li>
+					<li className="text-lg">Project 4: AI candy.</li>
+					<li className="text-lg">Project 5: AI among us.</li>
+					<li className="text-lg">Project 6: AI cat.</li>
+					<Image src="/ramen.png" alt="NCSSM Abbreviated Logo" width={50} height={50} />
 				</ul>
 			</section>
 			<section className="bg-primaryBlue p-6 rounded-lg shadow-md">
-				<h2 className="text-3xl font-semibold text-white">Coursework</h2>
-				<p className="text-lg mt-2 text-left text-white">Brief description of relevant coursework and what was learned.</p>
+				<h2 className="text-3xl font-semibold text-white">Coursework:</h2>
+				<p className="text-lg mt-2 text-left text-white">All of them.</p>
+				<Image src="/peak.png" alt="NCSSM Abbreviated Logo" width={75} height={75} />
 			</section>
 		</div>
 	)
@@ -125,7 +141,7 @@ function Footer() {
 	return (
 		<footer className="w-full py-4 flex flex-col items-center text-center" style={{backgroundColor: "#1b1b1b"}}>
 			<div className="mb-4">
-				<Image src="/horizontal.svg" alt="NCSSM Horizontal Logo" width={200} height={50} />
+				<Image src="/the.gif" alt="NCSSM Horizontal Logo" width={200} height={50} />
 			</div>
 			<div className="space-x-4 mb-2">
 				<a href={`mailto:${config.email}`} className="text-accentSkyBlue hover:text-white">Email: {config.email}</a>
